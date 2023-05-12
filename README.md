@@ -1,2 +1,2 @@
-# dotnet-template-ddd
-Template for .NET solution using Domain-Driven Design
+# .NET 6 with DDD
+Template for solution using .NET 6 and Domain-Driven Design

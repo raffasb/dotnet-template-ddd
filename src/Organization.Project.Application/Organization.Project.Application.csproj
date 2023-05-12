@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Organization.Project.Domain\Organization.Project.Domain.csproj" />
+    <ProjectReference Include="..\Organization.Project.Infrastructure\Organization.Project.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Clients\" />
+    <Folder Include="Commands\" />
+    <Folder Include="DataTransferObjects\" />
+    <Folder Include="Utils\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
+</Project>

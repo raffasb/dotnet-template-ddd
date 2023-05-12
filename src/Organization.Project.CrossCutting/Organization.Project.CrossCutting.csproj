@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Organization.Project.Application\Organization.Project.Application.csproj" />
+    <ProjectReference Include="..\Organization.Project.Infrastructure\Organization.Project.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Logging\" />
+    <Folder Include="DependencyInjection\" />
+    <Folder Include="Web\Middleware\" />
+    <Folder Include="Web\ExceptionHandling\" />
+  </ItemGroup>
+
+</Project>
